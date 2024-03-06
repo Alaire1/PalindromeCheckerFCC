@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
+body {
+  background-color: #ffe54c;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.title {
+  font-family: "Permanent Marker", cursive;
+}
+
+.palindrome-btn {
+  background-color: transparent;
+  border: 1px solid #eacb47;
+  border-radius: 15%;
+  box-sizing: border-box;
+  color: black;
+  font-family: "Permanent Marker", cursive;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 16px 23px;
+  position: relative;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  cursor: pointer;
+}
+.palindrome-btn:hover {
+  outline: 0;
+  background-color: #ffe54c;
+  border: 1px solid #ffe54c;
+}
+
+@media (min-width: 768px) {
+  .palindrome-input {
+    padding: 16px 32px;
+  }
+}
+
+.palindrome-input {
+  border: none;
+  border-bottom: 2px solid black;
+  margin: 15px;
+}
+.palindrome-div {
+  width: min(100vw, 400px);
+  min-height: 100px;
+  border-radius: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 10px 0;
+  background-color: white;
+  box-shadow: 0 6px 6px black;
+}
